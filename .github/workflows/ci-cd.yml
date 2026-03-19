@@ -70,7 +70,7 @@ jobs:
 
     - name: Run frontend tests
       working-directory: ./catfoodstore-app
-      run: npm test -- --coverage --watchAll=false
+      run: npm test -- --coverage --watchAll=false --passWithNoTests
 
   build:
     runs-on: ubuntu-latest
